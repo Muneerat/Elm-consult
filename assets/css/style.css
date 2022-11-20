@@ -1,0 +1,62 @@
+.link-item li {
+  list-style: none;
+  display: inline;
+}
+.link-item li a {
+  color: #ffffff;
+  font-size: 17px;
+}
+.link-bar ul {
+  padding-left: 0;
+}
+.heading-title {
+  margin: 0 20% 1%;
+}
+/* About section */
+.container > .box {
+  margin-left: 0 !important;
+}
+.about {
+  background-color: #f0f0f0;
+  padding: 100px 30px;
+  /* margin: 0 !important; */
+  /* padding: 0 !important; */
+}
+.col {
+  padding: 0 !important;
+  position: relative;
+  transition: 0.5s;
+}
+.img-description {
+  position: absolute;
+  top: 250px;
+  bottom: 0;
+  left: 60px;
+  right: 0;
+  transition: opacity 0.2s, visibility 0.2s;
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(1.1);
+}
+.long-img:hover {
+  filter: brightness();
+  transform: scale(1.1);
+  /* animation: 5s; */
+  transition-duration: 1.5s;
+  transform: translate(-1px, -1px);
+}
+.long-img {
+  height: 300px;
+  margin: 35px;
+  padding: 4px;
+  filter: grayscale();
+}
+.col:hover .img-description {
+  opacity: 1;
+  visibility: visible;
+  transition-duration: 1s;
+}
+/* investment */
+.filter-app {
+  /* height: 100%; */
+}
